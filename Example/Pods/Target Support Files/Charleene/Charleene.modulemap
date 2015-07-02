@@ -1,0 +1,6 @@
+framework module Charleene {
+  umbrella header "Charleene-umbrella.h"
+
+  export *
+  module * { export * }
+}

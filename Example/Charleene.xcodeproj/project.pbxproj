@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		344CBECE1B4436B9004C5170 /* KSViewControllerOfYourChoice.m in Sources */ = {isa = PBXBuildFile; fileRef = 344CBECD1B4436B9004C5170 /* KSViewControllerOfYourChoice.m */; };
 		59CD888B184EBCA169D68549 /* Pods_Charleene_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4AB47F0ED4B9F9F10AF47D6 /* Pods_Charleene_Tests.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,7 +38,9 @@
 
 /* Begin PBXFileReference section */
 		0232FF98BFE4FACECFBDCBFB /* Pods_Charleene_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Charleene_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6003F58A195388D20070C39A /* Charleene.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Charleene.app; path = Charleene_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		344CBECC1B4436B0004C5170 /* KSViewControllerOfYourChoice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KSViewControllerOfYourChoice.h; sourceTree = "<group>"; };
+		344CBECD1B4436B9004C5170 /* KSViewControllerOfYourChoice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KSViewControllerOfYourChoice.m; sourceTree = "<group>"; };
+		6003F58A195388D20070C39A /* Charleene_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Charleene_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -50,7 +53,7 @@
 		6003F5A5195388D20070C39A /* KSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KSViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* KSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KSViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		6003F5AE195388D20070C39A /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = Charleene_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6003F5AE195388D20070C39A /* Charleene_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Charleene_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
@@ -119,8 +122,8 @@
 		6003F58B195388D20070C39A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				6003F58A195388D20070C39A /* Charleene.app */,
-				6003F5AE195388D20070C39A /* Tests.xctest */,
+				6003F58A195388D20070C39A /* Charleene_Example.app */,
+				6003F5AE195388D20070C39A /* Charleene_Tests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -141,6 +144,8 @@
 		6003F593195388D20070C39A /* Example for Charleene */ = {
 			isa = PBXGroup;
 			children = (
+				344CBECC1B4436B0004C5170 /* KSViewControllerOfYourChoice.h */,
+				344CBECD1B4436B9004C5170 /* KSViewControllerOfYourChoice.m */,
 				6003F59C195388D20070C39A /* KSAppDelegate.h */,
 				6003F59D195388D20070C39A /* KSAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -213,7 +218,7 @@
 			);
 			name = Charleene_Example;
 			productName = Charleene;
-			productReference = 6003F58A195388D20070C39A /* Charleene.app */;
+			productReference = 6003F58A195388D20070C39A /* Charleene_Example.app */;
 			productType = "com.apple.product-type.application";
 		};
 		6003F5AD195388D20070C39A /* Charleene_Tests */ = {
@@ -234,7 +239,7 @@
 			);
 			name = Charleene_Tests;
 			productName = CharleeneTests;
-			productReference = 6003F5AE195388D20070C39A /* Tests.xctest */;
+			productReference = 6003F5AE195388D20070C39A /* Charleene_Tests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -391,6 +396,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* KSAppDelegate.m in Sources */,
+				344CBECE1B4436B9004C5170 /* KSViewControllerOfYourChoice.m in Sources */,
 				6003F5A7195388D20070C39A /* KSViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
@@ -515,6 +521,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Charleene/Charleene-Prefix.pch";
 				INFOPLIST_FILE = "Charleene/Charleene-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
@@ -530,6 +537,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Charleene/Charleene-Prefix.pch";
 				INFOPLIST_FILE = "Charleene/Charleene-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MODULE_NAME = ExampleApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;

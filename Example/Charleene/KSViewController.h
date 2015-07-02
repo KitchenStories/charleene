@@ -8,6 +8,8 @@
 
 @import UIKit;
 
-@interface KSViewController : UIViewController
+#import "KSViewControllerOfYourChoice.h"
+
+@interface KSViewController : UIViewController <KSViewControllerOfYourChoiceDelegate>
 
 @end
