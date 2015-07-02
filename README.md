@@ -17,7 +17,7 @@ For an example on how to communicate back from the containing UIViewController t
 
 ## Demo
 
-![](https://github.com/KitchenStories/Charleene/blob/master/images/charleene-demo.gif)
+![](https://github.com/KitchenStories/Charleene/blob/master/images/Charleene-Demo.gif)
 
 
 ## Usage
