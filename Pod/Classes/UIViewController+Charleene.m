@@ -21,7 +21,8 @@ static Charleene *staticCharleene = nil;
 #ifdef __IPHONE_7_0
         self.modalPresentationStyle = UIModalPresentationCurrentContext;
 #endif
-        Charleene *charleene = [[UIStoryboard storyboardWithName:@"Charleene" bundle:nil] instantiateInitialViewController];
+        NSBundle *bundle = [NSBundle bundleForClass:[Charleene class]];        
+        Charleene *charleene = [[UIStoryboard storyboardWithName:@"Charleene" bundle:bundle] instantiateInitialViewController];
         charleene.containingViewController = viewControllerToPresent;
         charleene.transitionMode = mode;
         

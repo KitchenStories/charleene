@@ -19,10 +19,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Charleene: 4ef56d8d9bd9920a26aeef33755a39c2d27eac0a
+  Charleene: 540c360b1f33f71af94c6af3cd6af2f79ac72ccd
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   Expecta+Snapshots: ca15bfb57e7a0f78f86c7699c2c54ffacfa4ad2a
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
   Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
 
-COCOAPODS: 0.38.0.beta.1
+COCOAPODS: 0.38.0

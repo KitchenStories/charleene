@@ -11,9 +11,11 @@ iOS - UIModalPresentationFormSheet for iPhone
 
 Charleene is simple, modern and lightweight solution for porting the UIModalPresentationFormSheet (known as a system API feature on iPads) to iPhones.
 
-Charleene takes any UIViewController as containing UIViewController and presents it modally.
+Charleene takes any UIViewController as containing UIViewController and presents it modally. 
 
-For an example on how to communicate back from the containing UIViewController to the presenting UIViewController see the demo project included in this repository (hint: There’s no other magic used than good old delegation pattern).
+Of course you get an out-of-the box communication pattern back to your presenting view controller. Whenever Charleene is used on the iPad it uses the iOS system API for UIModalPresentationFormSheet.
+
+
 
 ## Demo
 

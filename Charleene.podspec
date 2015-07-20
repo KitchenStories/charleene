@@ -11,18 +11,19 @@ Pod::Spec.new do |s|
   s.name             = "Charleene"
   s.version          = "0.1.0"
   s.summary          = "Charleene is simple, modern and lightweight solution for porting the UIModalPresentationFormSheet to iPhones."
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/Charleene"
+  s.homepage         = "https://github.com/KitchenStories/Charleene"
   s.license          = 'MIT'
   s.author           = { "Kersten Broich" => "kersten.broich@kitchentories.de" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/Charleene.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.source           = { :git => "https://github.com/KitchenStories/Charleene.git", :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/kersten_broich'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
+
   s.resource_bundles = {
-    'Charleene' => ['Pod/Classes/**/*.storyboard']
+    'Charleene' => ['Pod/Assets/**/*']
   }
 
 end
