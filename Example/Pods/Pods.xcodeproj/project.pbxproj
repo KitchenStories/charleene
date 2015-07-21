@@ -31,6 +31,7 @@
 		2B0EA2F8DCAE27F90C2B61924C73D5AC /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D5F0073883D15C82B3657035C11007 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B21E915DE369E21AC3555CF880952E0 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB19567303196CDEE1FFA703BB9F45 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		30252C3677E196A3A60CF0F631D0F3F0 /* EXPMatchers+beGreaterThan.m in Sources */ = {isa = PBXBuildFile; fileRef = 219613C4DFDEB675BC8FF5F53EC16C24 /* EXPMatchers+beGreaterThan.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		3493C8801B5E8C88005A5625 /* Charleene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F162ED8ED89DF48904D1D987D066FF /* Charleene.storyboard */; };
 		3528C083DB5B9244C908769BB791B53D /* UIViewController+Charleene.m in Sources */ = {isa = PBXBuildFile; fileRef = 84B2978D06F2BAD91E174A6B4A8E12BF /* UIViewController+Charleene.m */; };
 		39B3AA13895DD63CFEFB0D92FEA5D8D5 /* EXPMatchers+beNil.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D17D4C29D34A723134A1CB28FF630CB /* EXPMatchers+beNil.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		3F8655308E2543CAD41DBD8B7E0B8723 /* EXPMatchers+beSubclassOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F24F5A53E98B43C2E4C37F5B28D54A1 /* EXPMatchers+beSubclassOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -64,7 +65,6 @@
 		5D1B25AB2D16358CA0AB0E0357C35AFF /* NSValue+Expecta.h in Headers */ = {isa = PBXBuildFile; fileRef = 81669C5CBE7B66BC2C74F0F5BDE672A5 /* NSValue+Expecta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5DCA6B0F403E75F03CD22DFF27A74710 /* XCTest+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 343A883E40ECE34B8A2DAB65E799557A /* XCTest+Private.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5E93379EF1607AA397EF5993143F47E6 /* SpectaUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D20DF9DE8A62849C6D104D55F022472 /* SpectaUtility.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		5F27A2991BDA2058A1959E1B3003EEB6 /* Charleene.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 1B681FF5BB0C5B4DBB157027F0D4FAE1 /* Charleene.bundle */; };
 		63EF1910B3A7CCE3E0E38DEA6749F9D9 /* EXPMatchers+beCloseTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 63BB70B19888B4AFF43D93B787ED1901 /* EXPMatchers+beCloseTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6444F6185E4338C6BD77B393341C25E5 /* Charleene-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F54B44AFC79E523438059B89432C98CB /* Charleene-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		64BF63B53D31B9187F40BB750F9D4F7D /* Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 212545143566344299459F8C2C1C50B4 /* Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -111,7 +111,6 @@
 		9E9B18606930C573580EBAA3DB6A93A1 /* ExpectaObject.m in Sources */ = {isa = PBXBuildFile; fileRef = CE99A6731A526EC391BE48552239F194 /* ExpectaObject.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9F7BF44E431B99EE4C16E4BF026665D3 /* EXPMatchers+respondTo.h in Headers */ = {isa = PBXBuildFile; fileRef = 9C69E72855C469B5C653C3D8DDF08490 /* EXPMatchers+respondTo.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A0AC0783CCBC88130EA52616CA7502F8 /* ExpectaSupport.h in Headers */ = {isa = PBXBuildFile; fileRef = EA71D710F3DFAD85671E92E50BC88968 /* ExpectaSupport.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A26E0DC5B32F48E41A56DCE1DA18C2C4 /* Charleene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E6F162ED8ED89DF48904D1D987D066FF /* Charleene.storyboard */; };
 		A551619A45AF380FAE95ADEB702ECA6A /* SpectaTypes.h in Headers */ = {isa = PBXBuildFile; fileRef = E1A6663BD69A9E2E6E90448A2EF2D253 /* SpectaTypes.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		A5B3E3708D8435D6C7E38854FCF1E396 /* EXPMatchers+beLessThanOrEqualTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 0FBD4E7E4F31D3D498E6C5398622EBC1 /* EXPMatchers+beLessThanOrEqualTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A64CA050EA893AFCD235061175C226F3 /* EXPMatchers+beInstanceOf.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EBB8EB9F25616B5D8CDB4282B94D342 /* EXPMatchers+beInstanceOf.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -209,13 +208,6 @@
 			remoteGlobalIDString = 4D6D577CADF7971017F383BCEC1C8A45;
 			remoteInfo = Specta;
 		};
-		C8D5B719BC1F3528DA3547F58B585CD1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = D8CCF15B9F01EEB4F3A310BA553FE046;
-			remoteInfo = "Charleene-Charleene";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -243,7 +235,6 @@
 		15E06F851FF03F0B889031D77486A541 /* EXPMatchers+postNotification.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+postNotification.h"; path = "Expecta/Matchers/EXPMatchers+postNotification.h"; sourceTree = "<group>"; };
 		178253693E682E887378E70D44E54816 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		199E81C66534188D6B13EAACC12B794D /* EXPMatchers+beInTheRangeOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+beInTheRangeOf.h"; path = "Expecta/Matchers/EXPMatchers+beInTheRangeOf.h"; sourceTree = "<group>"; };
-		1B681FF5BB0C5B4DBB157027F0D4FAE1 /* Charleene.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Charleene.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5B76EC8E863E7161F5CC83B5A42A78 /* EXPMatchers+haveCountOf.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+haveCountOf.h"; path = "Expecta/Matchers/EXPMatchers+haveCountOf.h"; sourceTree = "<group>"; };
 		1F24F5A53E98B43C2E4C37F5B28D54A1 /* EXPMatchers+beSubclassOf.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+beSubclassOf.m"; path = "Expecta/Matchers/EXPMatchers+beSubclassOf.m"; sourceTree = "<group>"; };
 		1F86F48FBE2469EF8ADA64C359D92AEA /* Expecta_Snapshots.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Expecta_Snapshots.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -405,13 +396,6 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		32EEA1DF5D439AAEA8D3845682E88A39 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		38685EE180526B45696CA7DD36437906 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -648,7 +632,6 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1B681FF5BB0C5B4DBB157027F0D4FAE1 /* Charleene.bundle */,
 				2858E3E4DFBED80E7C446E380430F3B6 /* Charleene.framework */,
 				DF6FCE6D551B75E0FA6B5FE04E7668F4 /* Expecta.framework */,
 				1F86F48FBE2469EF8ADA64C359D92AEA /* Expecta_Snapshots.framework */,
@@ -994,7 +977,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				58E52D2FEEF0857E8C920E8C7C9E7DB8 /* PBXTargetDependency */,
 			);
 			name = Charleene;
 			productName = Charleene;
@@ -1111,23 +1093,6 @@
 			productReference = 306CBFEE38F773B0E1BE926F86D87FE9 /* FBSnapshotTestCase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		D8CCF15B9F01EEB4F3A310BA553FE046 /* Charleene-Charleene */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 99C2DCEB0710B32E58397D51F8F316F4 /* Build configuration list for PBXNativeTarget "Charleene-Charleene" */;
-			buildPhases = (
-				619238940B13E94E6CBD87D2AF2C8C27 /* Sources */,
-				32EEA1DF5D439AAEA8D3845682E88A39 /* Frameworks */,
-				52751217F9CE1163D320C65F4C7F5D38 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Charleene-Charleene";
-			productName = "Charleene-Charleene";
-			productReference = 1B681FF5BB0C5B4DBB157027F0D4FAE1 /* Charleene.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -1150,7 +1115,6 @@
 			projectRoot = "";
 			targets = (
 				07345957D7092C758DC7858CF9220FFC /* Charleene */,
-				D8CCF15B9F01EEB4F3A310BA553FE046 /* Charleene-Charleene */,
 				0D181FBA8AE2D35C62014851B1214CFD /* Expecta */,
 				74877D234B750D3DB4AF58F3E810BE6E /* Expecta+Snapshots */,
 				78BECBACE573712C1ACEA9F10D15F629 /* FBSnapshotTestCase */,
@@ -1162,19 +1126,11 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		52751217F9CE1163D320C65F4C7F5D38 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A26E0DC5B32F48E41A56DCE1DA18C2C4 /* Charleene.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		81DED71AE97E3DD97950590D34FA95D7 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5F27A2991BDA2058A1959E1B3003EEB6 /* Charleene.bundle in Resources */,
+				3493C8801B5E8C88005A5625 /* Charleene.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1204,13 +1160,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				E656E15872D262905951068B1366A4EB /* Pods-Charleene_Example-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		619238940B13E94E6CBD87D2AF2C8C27 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1305,12 +1254,6 @@
 			target = 78BECBACE573712C1ACEA9F10D15F629 /* FBSnapshotTestCase */;
 			targetProxy = B365C8799236908B9319B9467C8B6FD8 /* PBXContainerItemProxy */;
 		};
-		58E52D2FEEF0857E8C920E8C7C9E7DB8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Charleene-Charleene";
-			target = D8CCF15B9F01EEB4F3A310BA553FE046 /* Charleene-Charleene */;
-			targetProxy = C8D5B719BC1F3528DA3547F58B585CD1 /* PBXContainerItemProxy */;
-		};
 		5AEA2B811B7D16CE79B8F80357FD3206 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Charleene;
@@ -1356,18 +1299,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		02B97E8E31D7152EAE94BF07A32542A2 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B80E0B7B3BA5C983D0B44BDCC31B86B /* Charleene-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Charleene;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
 		0551F3E2607B1CF946D28EA3E5818E57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 63EBE4E63C13DD6DD85D2F188257E097 /* Pods-Charleene_Tests.debug.xcconfig */;
@@ -1543,18 +1474,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
-		};
-		56864ADC8148BCB35C082935574E175C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2B80E0B7B3BA5C983D0B44BDCC31B86B /* Charleene-Private.xcconfig */;
-			buildSettings = {
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				PRODUCT_NAME = Charleene;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
 		};
 		5F1B8C51082E696409230E25C438773C /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -1892,15 +1811,6 @@
 			buildConfigurations = (
 				30CB7F9A7C2B890F15E6E7FE2EF94DF4 /* Debug */,
 				22A58AF019FFF1D091FB574F27273678 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		99C2DCEB0710B32E58397D51F8F316F4 /* Build configuration list for PBXNativeTarget "Charleene-Charleene" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				02B97E8E31D7152EAE94BF07A32542A2 /* Debug */,
-				56864ADC8148BCB35C082935574E175C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
