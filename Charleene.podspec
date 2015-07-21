@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Charleene"
-  s.version          = "0.1.0"
+  s.version          = "0.0.1"
   s.summary          = "Charleene is simple, modern and lightweight solution for porting the UIModalPresentationFormSheet to iPhones."
   s.homepage         = "https://github.com/KitchenStories/Charleene"
   s.license          = 'MIT'
