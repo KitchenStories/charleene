@@ -9,7 +9,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "Charleene"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Charleene is simple, modern and lightweight solution for porting the UIModalPresentationFormSheet to iPhones."
   s.homepage         = "https://github.com/KitchenStories/Charleene"
   s.license          = 'MIT'
@@ -22,10 +22,6 @@ Pod::Spec.new do |s|
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/*'
-
-#s.resource_bundles = {
-#    'Charleene' => ['Pod/Assets/*.storyboard']
-#  }
- s.resources = ["Pod/Assets/*.storyboard"]
+  s.resources = ["Pod/Assets/*.storyboard"]
 
 end
