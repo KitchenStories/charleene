@@ -31,7 +31,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 Include the corresponding category on UIViewController in your implementation file
 
 ```objc
-#import <UIViewController+Charleene.h>
+#import "UIViewController+Charleene.h"
 ```
 
 ### Presentation
