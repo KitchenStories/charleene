@@ -35,6 +35,7 @@
 		2B0EA2F8DCAE27F90C2B61924C73D5AC /* SPTSpec.h in Headers */ = {isa = PBXBuildFile; fileRef = 76D5F0073883D15C82B3657035C11007 /* SPTSpec.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2B21E915DE369E21AC3555CF880952E0 /* XCTestCase+Specta.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CCB19567303196CDEE1FFA703BB9F45 /* XCTestCase+Specta.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2C1713E32054795208A6FAF46C6DED12 /* EXPMatchers+beCloseTo.m in Sources */ = {isa = PBXBuildFile; fileRef = 167048A0179CA793226093D1AAB0CE83 /* EXPMatchers+beCloseTo.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		348232AA1B5E855600A19AB2 /* Charleene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE010EA2B0B0C676FA93623840F4CD8F /* Charleene.storyboard */; };
 		34ACBBFD1B5E825D00F319A2 /* Charleene.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE010EA2B0B0C676FA93623840F4CD8F /* Charleene.storyboard */; };
 		34AF14A5E7619C02E8393F465A6F810A /* Charleene.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3F32B054DAECBBA7E081F27DC1DA8100 /* Charleene.bundle */; };
 		36CE09D2BA2674FF98E3FDF661C2A439 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0088AFD8F2DEDD56292FC8C264CAF9FC /* XCTest.framework */; };
@@ -1166,6 +1167,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				348232AA1B5E855600A19AB2 /* Charleene.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
