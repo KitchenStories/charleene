@@ -16,6 +16,7 @@ Pod::Spec.new do |s|
   s.author           = { "Kersten Broich" => "kersten.broich@kitchentories.de" }
   s.source           = { :git => "https://github.com/KitchenStories/Charleene.git", :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/kersten_broich'
+  s.ios.deployment_target = "8.4"
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
