@@ -1,5 +1,5 @@
 PODS:
-  - Charleene (0.1.0)
+  - Charleene (0.0.1)
   - Expecta (1.0.0)
   - Expecta+Snapshots (1.3.4):
     - Expecta (~> 1.0)
@@ -19,7 +19,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Charleene: 540c360b1f33f71af94c6af3cd6af2f79ac72ccd
+  Charleene: c7d597452c99fb3f53427daf8d7720159ad99e79
   Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
   Expecta+Snapshots: ca15bfb57e7a0f78f86c7699c2c54ffacfa4ad2a
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
