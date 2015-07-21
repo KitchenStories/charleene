@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.license          = 'MIT'
   s.author           = { "Kersten Broich" => "kersten.broich@kitchentories.de" }
   s.source           = { :git => "https://github.com/KitchenStories/Charleene.git", :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/kersten_broich'
+  s.social_media_url = 'https://twitter.com/kersten_broich'
 
   s.platform     = :ios, '7.0'
   s.requires_arc = true
@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.source_files = 'Pod/Classes/**/*'
 
   s.resource_bundles = {
-    'Charleene' => ['Pod/Assets/**/*']
+    'Charleene' => ['Pod/Assets/*.storyboard']
   }
 
 end
