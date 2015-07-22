@@ -8,8 +8,7 @@ Charleene is simple, modern and lightweight solution for porting the UIModalPres
 
 Charleene takes any UIViewController as containing UIViewController and presents it modally. 
 
-Of course you get an out-of-the box communication pattern back to your presenting view controller. Whenever Charleene is used on the iPad it uses the iOS system API for UIModalPresentationFormSheet.
-
+Whenever Charleene is used on the iPad it calls the iOS system API for UIModalPresentationFormSheet.
 
 
 ## Demo
