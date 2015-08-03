@@ -1,11 +1,11 @@
 PODS:
-  - Charleene (0.0.3)
-  - Expecta (1.0.0)
+  - Charleene (0.0.4)
+  - Expecta (1.0.2)
   - Expecta+Snapshots (1.3.4):
     - Expecta (~> 1.0)
     - FBSnapshotTestCase (~> 1.8)
   - FBSnapshotTestCase (1.8.1)
-  - Specta (1.0.2)
+  - Specta (1.0.3)
 
 DEPENDENCIES:
   - Charleene (from `../`)
@@ -19,10 +19,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Charleene: 3ceea3e6939f9a9692781fa1bcebf922d507dabd
-  Expecta: 32604574add2c46a36f8d2f716b6c5736eb75024
+  Charleene: a0147ecf29887916d50ac0d385aba567bd741222
+  Expecta: 54e8a3530add08f4f0208c111355eda7cde74a53
   Expecta+Snapshots: ca15bfb57e7a0f78f86c7699c2c54ffacfa4ad2a
   FBSnapshotTestCase: 3dc3899168747a0319c5278f5b3445c13a6532dd
-  Specta: 9cec98310dca411f7c7ffd6943552b501622abfe
+  Specta: cf3e4188cf35375c3ee2cd03f8db8f1f4ef98234
 
 COCOAPODS: 0.38.0

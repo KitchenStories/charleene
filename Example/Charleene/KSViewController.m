@@ -37,7 +37,10 @@
         self.label.text = [NSString stringWithFormat:@"You selected: %@", item];
     }
     
-    [self dismissCharleeneAnimated:YES completion:nil];
+    [self dismissCharleeneAnimated:YES completion:^{
+        NSLog(@"Some completion blog to be called after dismissal");
+    }];
+    
 }
 
 @end

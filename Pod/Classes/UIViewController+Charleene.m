@@ -34,8 +34,9 @@ static Charleene *staticCharleene = nil;
 }
 
 - (void)dismissCharleeneAnimated:(BOOL)animated completion:(void (^)(void))completion {
+    
     if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
-        [self dismissViewControllerAnimated:YES completion:nil];
+        [self dismissViewControllerAnimated:YES completion:completion];
         return;
     }
     
