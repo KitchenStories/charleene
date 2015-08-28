@@ -35,7 +35,7 @@ static Charleene *staticCharleene = nil;
 
 - (void)dismissCharleeneAnimated:(BOOL)animated completion:(void (^)(void))completion {
     
-    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad) {
+    if (UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPad || staticCharleene == nil) {
         [self dismissViewControllerAnimated:YES completion:completion];
         return;
     }

@@ -71,7 +71,7 @@ pod "Charleene"
 
 ## Change Log
 
-# What's new in version 0.0.4
+### What's new in version 0.0.4
 
 * block execution on iPads after dismissal
 

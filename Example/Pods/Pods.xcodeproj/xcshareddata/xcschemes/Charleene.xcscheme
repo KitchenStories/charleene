@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "DC26DA2BCE80ABBB1205C7C0"
+               BlueprintIdentifier = "14A6FCE74F64FC7C91F14DA1"
                BuildableName = "Charleene.framework"
                BlueprintName = "Charleene"
                ReferencedContainer = "container:Pods.xcodeproj">
