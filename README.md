@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/KitchenStories/charleene.svg)](https://travis-ci.org/KitchenStories/charleene)
+
 # Charleene
 
 iOS - UIModalPresentationFormSheet for iPhone
