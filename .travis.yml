@@ -3,7 +3,8 @@
 # * https://github.com/supermarin/xcpretty#usage
 
 language: objective-c
-xcodebuild -workspace Example/Charleene.xcworkspace -scheme Charleene-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+script: xcodebuild -workspace Example/Charleene.xcworkspace -scheme Charleene-Example -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
+
 #cache: cocoapods
 #podfile: Example/Podfile
 #before_install:
