@@ -16,7 +16,7 @@
 @property (nonatomic, weak) IBOutlet UIView *backgroundView;
 @property (nonatomic, assign) CGFloat constraintConstantVisible;
 @property (nonatomic, assign) CGFloat constraintConstantHiddenBeforeAnimation;
-@property (nonatomic, assign) CGFloat constraontConstantHiddenAfterAnimation;
+@property (nonatomic, assign) CGFloat constraintConstantHiddenAfterAnimation;
 @end
 
 static const NSTimeInterval ModalCenterContentViewControllerAnimationDurationAppear = 0.3;
