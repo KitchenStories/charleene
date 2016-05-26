@@ -73,9 +73,9 @@ pod "Charleene"
 
 ## Change Log
 
-### What's new in version 0.0.5
+### What's new in version 1.0
 
-* call system dismissal in case inactive charleene was asked to be dismissed
+* No functional update - just fixed some typos and made it a stable 1.0 release
 
 ## Author
 
