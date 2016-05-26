@@ -79,7 +79,7 @@ pod "Charleene"
 
 ## Author
 
-Kersten Broich, kersten.broich@kitchentories.de
+Kersten Broich, kersten.broich@kitchenstories.de
 
 ## License
 
